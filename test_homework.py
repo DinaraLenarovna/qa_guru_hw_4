@@ -28,7 +28,7 @@ def test_rectangle():
     assert perimeter == 60
 
     # TODO сосчитайте площадь
-    area = 2 * (a * b)
+    area = a * b
 
     assert area == 200
 
@@ -40,7 +40,7 @@ def test_circle():
     """
     r = 23
     # TODO сосчитайте площадь
-    area = r * r * math.pi
+    area = math.pi * math.pow(r, 2)
     print(area)
 
     assert area == 1661.9025137490005
